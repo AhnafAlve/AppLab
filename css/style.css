@@ -1,3 +1,6 @@
+
+/* Global CSs */
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +15,11 @@ a{
 }
 h1{
     color: #242f51;
+    font-weight: bold;
+}
+
+.owl-carousel button.owl-dot{
+    display:none !important;
 }
 
 /* Header section css */
@@ -172,6 +180,10 @@ header{
     text-align: center;
     margin:100px 0px;
 }
+.about p{
+    width: 90%;
+    display: inline-block;
+}
 .about h1{
     font-weight: bold;
     padding-bottom: 15px;
@@ -182,4 +194,92 @@ header{
 }
 .services .col-md-4 h4{
     font-weight: bold;
+    padding: 14px 0px 5px 0px;
+}
+.services p{
+    width: 60%;
+    display: inline-block;
+    justify-content: center;
+}
+.ulfeature{
+    margin-top: 100px;
+    width: 100%;
+    overflow: hidden;
+
+}
+.ulfeature h4{
+    font-weight: bold;
+    padding: 14px 0px 5px 0px;
+}
+.ulfeature p{
+    width: 63%;
+    padding: 10px 0px;
+}
+.pricing{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.trigger{
+    border: 1px solid #b9b9b8;
+    border-radius: 51px;
+    display: inline-block;
+}
+.trigger .active{
+    background-color:#2500f9;
+    color: #fff;
+    padding: 15px 42px;
+    border: none;
+    border-radius: 35px;
+}
+.trigger .inactive{
+    color: #b9b9b8;
+    padding: 15px 42px;
+    border: none;
+    border-radius: 35px;
+    background: transparent;
+}
+.card{
+    margin: 32px;
+}
+.table-active{
+    border: none;
+    box-shadow: 8px 8px 19px 0px gray;
+}
+
+.card-header{
+    padding: 32px; 
+    border-bottom: none;
+}
+.card-header h1{
+    font-size:60px;
+    margin-bottom:32px;
+}
+.card-header h1 span{
+    font-size:20px;
+    font-weight: 400;
+}
+.card-body ul{
+    padding: 0;
+}
+.card-body ul li{
+    list-style: none;
+    margin: 12px 0;
+    font-weight: bold;
+}
+.card-body a{
+    margin: 22px 0;
+}
+.ceo h4{
+    font-weight: bold;
+}
+.clients p{
+    width:75%;
+}
+.clients .col-md-8{
+    padding: 20px;
+}
+.clients .col-md-8 h5{
+   font-weight: bold;
 }
