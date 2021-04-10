@@ -1,6 +1,5 @@
 
-/* Global CSs */
-
+/* Global Css */    
 *{
     margin: 0;
     padding: 0;
@@ -10,17 +9,20 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+ul {
+    list-style-type: none;
+}
 a{
     text-decoration: none;
+}
+a:hover{
+    color: #feaa25 !important;
 }
 h1{
     color: #242f51;
     font-weight: bold;
 }
 
-.owl-carousel button.owl-dot{
-    display:none !important;
-}
 
 /* Header section css */
 
@@ -40,7 +42,9 @@ header{
     font-weight: bold;
 }
 .btn-outline-success:hover{
-    background-color:  #2356f6 !important;
+    background-color:  #ffff !important;
+    color: #2500f9!important;
+    border: none;
 }
 .navbar-nav li{
     margin-right: 32px;
@@ -73,8 +77,8 @@ header{
     background-color: #e2eaed;
     padding:0px 42px 0px 0px;
     border-radius: 35px;
- 
 }
+
 .banner-hint i{
     width: 32px;
     height: 32px;
@@ -282,4 +286,52 @@ header{
 }
 .clients .col-md-8 h5{
    font-weight: bold;
+}
+
+.download{
+    border-top: 1px solid #b9b9b8;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.download .download_app{
+    padding-top:20%;
+    width: 90%;
+}
+.download .download_app h1{
+    padding: 10px 0;
+}
+.download  img{
+    padding: 10px 10px 10px 0px;
+    position: relative;
+}
+
+footer{
+    background-color:  #09142e;
+    margin-top: -68px;
+    height: 500px;
+}
+
+footer img{
+    margin: 11% 0 0 45%;
+}
+footer ul {
+    justify-content: center;
+    display: flex;
+    padding: 50px 0;
+}
+footer ul li a{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 20px;
+}
+footer .social{
+    padding: 10px;
+    margin-bottom: 75px;
+}
+
+footer p{
+    color: rgba(197, 194, 194, 0.89);
+    text-align: center;
 }
